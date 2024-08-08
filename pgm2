@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{lipsum}
+\title{Summary/Abstract}
+\author{abcd}
+\date{July 2024}
+\begin{document}
+\maketitle
+\begin{abstract}
+\lipsum[4]
+\end{abstract}
+\section{Introduction}
+\lipsum[2]
+\lipsum[1]
+\section{Summary}
+\lipsum[1]
+\end{document}
