@@ -1,0 +1,35 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{background}
+\usepackage[margin=1in,left=1.5in,includefoot]{geometry}
+\thispagestyle{empty}
+\backgroundsetup{scale=.8,angle=0,first page = true,opacity=0.1,color = black}
+\begin{document}
+\begin{tikzpicture}[remember picture,overlay]
+\draw[line width = 2pt]($(current page.north west) + (1in,-0.5in)$)
+rectangle($(current page.south east) + (-0.5in,0.5in)$); \end{tikzpicture}
+\begin{center}
+\large{\textbf{CMR COLLEGE OF ENGINEERING}}\\
+\scriptsize AECS LAYOUT,BENGALURU-560037\\
+\normalsize{\textbf{Department of Information Science and Engineering}}\vspace{0.2 in}\\
+\includegraphics[scale=2.5]{cmrlogo.png}\\\vspace{0.2 in}\large{\textbf{CERTIFICATE}}\\\vspace{0.01 in}
+\end{center}
+Certified that the project work entitled\textbf{"TECHNICAL WRITING WITH LATEX"}
+\\is a bonefide work carried out by\\
+\begin{tabular}{l l l}
+\textbf{Samson Anthony} & \hspace{3 in} \textbf{1CR22IS133} \\
+\textbf{Sanat} & \hspace{3 in} \textbf{1CR22IS134} \\ \end{tabular}
+\\in partial fulfillment for the award of Bachelor of Engineering in Information Science And Engineering of Visvesvaraya
+Technological University,Belgaum during the year 2023-2024. The project report has been approved as it is satisfied the
+academic requirements in respect of project work prescribed for the said degree. \\\vspace{0.01 in}\begin{center}
+\begin{tabular}{c c c}
+\textbf{Maria m} &\hspace{3.5 cm} \textbf{Jagdeshwari} \\
+Guide & \hspace{3.5 cm} Head of Department\\ \end{tabular}
+\end{center}
+NAME:\\\\ \vspace{1cm}
+\hspace{0.5cm}USN:\hspace{1cm} \begin{tabular}{|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|ll|}
+\hline & & & & & & & & & & & & & & & & & & & & & \\ \hline
+\end{tabular}
+\end{document}
