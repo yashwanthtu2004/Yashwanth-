@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{multirow}
+\begin{document}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|lll|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Sl.No}}&
+\multicolumn{1}{c|}{\multirow{2}{*}{USN}}&
+\multicolumn{1}{c|}{\multirow{2}{*}{Name}}&
+\multicolumn{3}{c|}{Marks}\\
+\cline{4-6}
+\multicolumn{1}{|c|}{}&
+\multicolumn{1}{c|}{}&
+\multicolumn{1}{c|}{}&
+\multicolumn{1}{c|}{ADA}&
+\multicolumn{1}{c|}{DBMS}&
+\multicolumn{1}{c|}{DSA}\\
+\hline 1&1CR22IS133&Samson &
+\multicolumn{1}{l|}{99}&
+\multicolumn{1}{l|}{86}&
+\multicolumn{1}{l|}{99}\\
+\hline 2&1CR22IS151&Siona&
+\multicolumn{1}{l|}{99}&
+\multicolumn{1}{l|}{66}&
+\multicolumn{1}{l|}{99}\\
+\hline 3&1CR22IS158&Sanjana&
+\multicolumn{1}{l|}{89}&
+\multicolumn{1}{l|}{46}&
+\multicolumn{1}{l|}{79}\\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
