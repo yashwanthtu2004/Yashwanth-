@@ -1,0 +1,33 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{geometry}
+\geometry{a4paper,total={180mm,250mm},left=20mm,top=30mm,}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\thispagestyle{empty}
+\begin{document}
+\begin{tikzpicture}[remember picture,overlay]
+\draw[line width = 2pt]($(current page.north west) + (1in,-0.5in)$)
+rectangle($(current page.south east) + (-0.5in,0.5in)$);
+\end{tikzpicture}
+\begin{center}
+\textbf{\large{VISHVESVARAYA TECHNOLOGICAL UNIVERSITY}}\\
+Jnana Sangama,Belgaum-590018\\\vspace{0.2in}
+\includegraphics[scale=0.3]{VTULOGO.jpeg}\\
+A PROJECT REPORT\\ON\\
+\textbf{"TECHNICAL WRITING WITH LATEX"}\\
+\textit{Submitted in partial fulfilment of the requirements for the award of the degree of}\\\vspace{0.1in}
+\textbf{BACHELOR OF ENGINEERING}\\
+Submitted by\\\vspace{0.5cm}
+HS\hspace{7.7cm} 1CR22IS135\\}\vspace{1cm}
+\textbf{Under the Guidance of}\\\vspace{0.2cm}
+Prof.Vanitha\\
+Asst Professor,Department of ISE,cmrit.\\ \vspace{1cm}
+\includegraphics[scale=0.5]{Cmrit.jpeg}\\\vspace{1cm}
+DEPARTMENT OF INFORMATION SCIENCE AND ENGINEERING\\\vspace{0.2cm}
+\textbf{\large{CMR COLLEGE OF ENGINEERING}}\\\vspace{0.2cm}
+AECS LAYOUT,BENGALURU - 560037\\
+2023-2024\\
+\end{center}
+\end{document}
+\textbf{Samson Anthony\hspace{7cm}1CR22IS133\\ Sanjan
