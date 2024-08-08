@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\begin{document}
+Equation 1\\
+\begin{equation}
+\begin{split}
+\text{x=}\frac{-b\pm \sqrt{b^{2}-4ac}}{2a}\\ =\frac{-2\pm \sqrt{2^{2}-4*(1)*(-8)}}{2*1}\\ =\frac{-2 \pm \sqrt{4+32}}{2}
+\end{split}
+\end{equation}
+Equation 2\\
+\begin{equation}
+\begin{split}
+\varphi^{\lambda}_{\sigma}A_{t} = \sum_{\pi\epsilon C_{t}}sgn
+(\pi)\varphi^{\lambda}_{\sigma}\varphi^{\lambda}_{\pi}\\ =\sum_{\tau\epsilon C_{\sigma t}}sgn(\sigma^{-1}\tau\sigma)\varphi^{\lambda}_{\sigma}\varphi^{\lambda}_{\sigma- 1\tau\sigma}\\ =A_{\sigma t}\varphi^{\lambda}_{\sigma}
+\end{split}
+\end{equation}
+\end{document}
