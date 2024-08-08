@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\begin{document}
+\begin{algorithm}
+\caption{An Algorithm to check even number}
+\begin{algorithmic}
+\Require $n \geq 0$
+\Ensure $y = 0$
+\State $y \gets 0$
+\State$N \neq n$
+\While{$N \neq 0$}
+$y=$N/2
+\If{$y = 0$}\\
+$n$ is even \Comment{This is comment}
+\Else \\
+{$n$ is odd}
+\EndIf
+\EndWhile
+\end{algorithmic}
+\end{algorithm}
+\end{document}
