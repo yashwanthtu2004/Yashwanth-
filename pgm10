@@ -1,0 +1,21 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage[edges]{forest}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{forest}
+for tree={
+align=center, edge+={thick, -{stealth[]}}, l sep'+=10pt, fork sep'=10pt, }, forked edges, if
+level=0{ inner
+xsep=0pt, tikz={\draw[thick](.children first)--(.children last);}
+}{}, [Root DNS Server
+[.org]
+[.com
+[Google
+[WWW]
+[Mail]
+]
+[Apple]
+]
+]
+\end{forest}
+\end{document}
