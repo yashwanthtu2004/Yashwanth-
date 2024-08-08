@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{lipsum}
+\begin{document}
+\section{Article}
+\lipsum[1]
+\cite{AI:1234}
+\section{book}
+\lipsum[2]
+\cite{myself}
+\section{conference}
+\lipsum[3]
+\cite{jashvi}
+\bibliographystyle{unsrt}
+\footnotesize{\bibliography{refer}}
+\end{document}
