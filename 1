@@ -1,65 +1,26 @@
-#include<stdio.h>
-#include<conio.h>
-#include<stdlib.h>
-int i,j,k,a,b,u,v,n,ne=1;
-int min,mincost=0,cost[9][9],parent[9];
-int find(int);
-int uni(int,int);
-void main()
-{
-clrscr();
-printf("\n\n\tImplementation of Kruskal's algorithm\n\n");
-printf("\nEnter the no. of vertices\n");
-scanf("%d",&n);
-printf("\nEnter the cost adjacency matrix\n");
-for(i=1;i<=n;i++)
-{
-for(j=1;j<=n;j++)
-{
-scanf("%d",&cost[i][j]);
-if(cost[i][j]==0)
-cost[i][j]=999;
-}
-}
-printf("\nThe edges of Minimum Cost Spanning Tree are\n\n");
-while(ne<n)
-{
-for(i=1,min=999;i<=n;i++)
-{
-for(j=1;j<=n;j++)
-{
-if(cost[i][j]<min)
-{
-min=cost[i][j];
-a=u=i;
-b=v=j;
-}
-}
-}
-u=find(u);
-v=find(v);
-if(uni(u,v))
-{
-printf("\n%d edge (%d,%d) =%d\n",ne++,a,b,min);
-mincost +=min;
-}
-cost[a][b]=cost[b][a]=999;
-}
-printf("\n\tMinimum cost = %d\n",mincost);
-getch();
-}
-int find(int i)
-{
-while(parent[i])
-i=parent[i];
-return i;
-}
-int uni(int i,int j)
-{
-if(i!=j)
-{
-parent[j]=i;
-return 1;
-}
-return 0;
-}
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\title{\testbf{artificial intelligence boon or bane} }
+\rhead{page _ \thepage}
+\date{July 2024}
+\begin{document}
+\chead{\textbf{artificial intelligence boon or bane}}
+\lfoot{CMRIT,Bangalore}
+\section{Section 1 : The transformative power of AI}
+AI’s capabilities are vast and varied, impacting numerous sectors. In healthcare, AI algorithms assist in diagnosing diseases with accuracy, surpassing human doctors in some
+cases. Tools like IBM Watson have been instrumental in oncology, analyzing medical data to suggest
+personalized treatment plans for cancer patients. And the coolest part? This kind of AI-assisted learning could be available to everyone, everywhere. It
+doesn’t matter if you’re in a big city or a small village – as long as you have access to a computer or a
+smartphone, you can have this personalized learning experience. Algorithms analyze climate data to predict and mitigate natural disasters. AI-driven projects monitor wildlife
+and their habitats, offering insights into conservation strategies
+\section{section 2: The economic impact}
+Economically, AI is a powerhouse. It’s predicted to add trillions to the global economy in the coming decade. So, why is AI such a big deal economically? The main reason is automation. AI-driven automation is like
+putting things on autopilot but in a super bright way. It can do tasks faster and more accurately than humans
+in many cases. This means businesses can get more work done in less time, which is great for their bottom
+line. For example, imagine a factory that makes cars. With AI, the factory can automate a lot of the manufacturing
+process. Robots and computers handle repetitive, precise tasks, and they don’t get tired or make mistakes
+like humans can. This speeds up the whole production line and reduces the chances of errors, which can be
+costly. 
+\end{document}
