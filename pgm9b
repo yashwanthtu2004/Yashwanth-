@@ -1,0 +1,18 @@
+@article{AI:1234,
+    author ={Pruthvi} ,
+    title = {World of AI},
+    journal = {New world},
+    year = {1978}
+}
+@book{myself,
+    author ={Shreya} ,
+    title = {knowing more},
+    publisher = {Lishvith publications},
+    year = {2004}
+}
+@conference{jashvi,
+    author = {Jashvi Shetty},
+    booktitle = {Travel},
+    title = {The nature},
+    year = {1998}
+}
